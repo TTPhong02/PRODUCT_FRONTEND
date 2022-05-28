@@ -21,7 +21,7 @@ const Footertest = () => {
                 </div>
             </div>
         </div>
-        <div className="footer-content mr-4 col-start-6 col-span-2">
+        <div className="footer_content mr-4  col-span-2">
             <h2 className='font-bold '>Chính Sách</h2>
             <ul>
                 <li className='mb-2'><a href="">Hướng dẫn mua hàng</a></li>
@@ -39,7 +39,7 @@ const Footertest = () => {
                 <li className='mb-2'><a href="">Liên Hệ</a></li>
             </ul>
         </div>
-        <div className="footer_content mr-4 col-span-3">
+        <div className="footer_content mr-4  col-span-4">
             <h2 className=' font-bold '>Đăng kí nhận tin</h2>
             <p>Gửi email đăng kí để nhận thông báo mới nhất về khuyến mãi, sự kiện nổi bật dành cho khách hàng</p>
             <div className="footer_content-email">
