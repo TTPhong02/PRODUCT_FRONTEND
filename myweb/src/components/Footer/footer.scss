@@ -1,27 +1,28 @@
 .footer{
     max-width: 100%;
     width: 1440px;
-    margin : 0px 40px;
+    padding: 40px 40px;
+    border-top: 2px solid #ccc;
     h2{
         margin-bottom: 15px;
         font-size: 2.5rem;
     }
     p{
         margin-bottom: 30px;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     a{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     &_content{
-        margin-right: 20px;
+        
         &-contact{
             i{
                 font-size: 2.3rem;
                 margin-bottom:10px ;
             }
             span{
-                font-size: 1.8rem;
+                font-size: 1.6rem;
             }
         }
         &-email{
