@@ -4,25 +4,25 @@ const Footertest = () => {
   return (
     <div className='footer mx-auto grid grid-cols-12'>
         <div className="footer_content mr-2 col-span-4">
-            <h2 className='text-2xl font-bold flex  '>Thông tin liên hệ</h2>
+            <h2 className='font-bold flex  '>Thông tin liên hệ</h2>
             <p className='flex'>Công ty cổ phần HIT Sport là một công ty cổ dông thuộc sở hữu của HIT Club với vai trò là nhà cung cấp các phụ kiện thời trang thể thao đến với khách hàng khắp mọi miền tổ quốc </p>
             <div className="footer_content-contact ">
                 <div className="mb-3">
-                    <i class="fa-solid fa-location-dot mr-7 text-2xl"></i>
+                    <i class="fa-solid fa-location-dot mr-7 "></i>
                     <span>Địa Chỉ: </span>
                 </div>
                 <div className=" mb-3">
-                    <i class="fa-solid fa-phone mr-6 text-xl "></i>
+                    <i class="fa-solid fa-phone mr-6  "></i>
                     <span>Điện Thoại:</span>
                 </div>
                 <div className="mb-3">
-                    <i class="fa-solid fa-envelope mr-6 text-xl"></i>
+                    <i class="fa-solid fa-envelope mr-6 "></i>
                     <span>Email: </span>
                 </div>
             </div>
         </div>
         <div className="footer-content mr-4 col-start-6 col-span-2">
-            <h2 className='text-2xl font-bold '>Chính Sách</h2>
+            <h2 className='font-bold '>Chính Sách</h2>
             <ul>
                 <li className='mb-2'><a href="">Hướng dẫn mua hàng</a></li>
                 <li className='mb-2'><a href="">Chính sách thanh toán</a></li>
@@ -31,7 +31,7 @@ const Footertest = () => {
             </ul>
         </div>
         <div className="footer_content mr-4 col-span-2">
-            <h2 className='text-2xl font-bold '>Thông tin</h2>
+            <h2 className='font-bold '>Thông tin</h2>
             <ul>
                 <li className='mb-2'><a href="">Về chúng tôi</a></li>
                 <li className='mb-2'><a href="">Câu hỏi thường gặp</a></li>
@@ -40,7 +40,7 @@ const Footertest = () => {
             </ul>
         </div>
         <div className="footer_content mr-4 col-span-3">
-            <h2 className='text-2xl font-bold '>Đăng kí nhận tin</h2>
+            <h2 className=' font-bold '>Đăng kí nhận tin</h2>
             <p>Gửi email đăng kí để nhận thông báo mới nhất về khuyến mãi, sự kiện nổi bật dành cho khách hàng</p>
             <div className="footer_content-email">
                 <input className='' type="text"placeholder='Nhập email' />
@@ -48,13 +48,13 @@ const Footertest = () => {
             </div>
             <div className="footer_content-social">
                 <a href="" className='text-sky-500'>
-                    <i className="fa-brands fa-facebook-square text-5xl m-3 cursor-pointer"></i>
+                    <i className="fa-brands fa-facebook-square  m-3 cursor-pointer"></i>
                 </a>
                 <a href="">
-                    <i className="fa-brands fa-instagram text-5xl m-3 cursor-pointer"></i>
+                    <i className="fa-brands fa-instagram m-3 cursor-pointer"></i>
                 </a>
                 <a href="" className='text-rose-600'>
-                    <i className="fa-brands fa-youtube text-5xl m-3 cursor-pointer"></i>
+                    <i className="fa-brands fa-youtube m-3 cursor-pointer"></i>
                 </a>
             </div>
         </div>
