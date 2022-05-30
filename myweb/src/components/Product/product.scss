@@ -1,5 +1,6 @@
 :root {
-  --price-color: #c75b5b;
+  --price-color: #AA0606;
+  --color-text: #000;
 }
 
 .item-product {
@@ -24,8 +25,11 @@
   }
 
   .name-product {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--color-text);
     padding: 16px 10px 0;
-    font-size: 1.4rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -34,6 +38,8 @@
   .price-product {
     padding-top: 5px;
     color: var(--price-color);
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
   }
 }
